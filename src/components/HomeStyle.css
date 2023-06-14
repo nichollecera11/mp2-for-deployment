@@ -2,6 +2,10 @@
   font-family: Roboto !important;
 }
 
+/* #root {
+  overflow:hidden !important;
+} */
+
 .rotating-text {
 
   display: flex !important;
@@ -50,12 +54,12 @@
     justify-content: center !important;
     align-items: center !important;
     width: 100% !important;
-    height:89.5vh !important;
+    height:100vh !important;
     background-image: url('https://media.giphy.com/media/l0HlKQPTHOGNUPTZm/giphy.gif') !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
-    margin-top: -46px !important;
+    margin-top: -48px !important;
 
 }
 
@@ -69,7 +73,7 @@
     background-color: #673AB7; /* Deep purple background color */
     background-image: linear-gradient(to bottom, #673AB7, goldenrod); /* Light gradient from deep purple to white */
     background-size: cover !important;
-    margin-top: -46px !important;
+    margin-top: -48px !important;
 }
 
 .about-section {
@@ -78,11 +82,11 @@
     justify-content: center !important;
     align-items: center !important;
     width: 100% !important;
-    height: 89.5vh !important;
+    height: 100vh !important;
     background-color: #673AB7; /* Deep purple background color */
     background-image: linear-gradient(to bottom, #673AB7, goldenrod); /* Light gradient from deep purple to white */
     background-size: cover !important;
-    margin-top: -46px !important;
+    margin-top: -48px !important;
 
 }
 
@@ -96,7 +100,7 @@
     background-color: #673AB7; /* Deep purple background color */
     background-image: linear-gradient(to bottom, #673AB7, goldenrod); /* Light gradient from deep purple to white */
     background-size: cover !important;
-    margin-top: -46px !important;
+    margin-top: -48px !important;
 
 }
 .register-box {
@@ -171,7 +175,7 @@
     background-color: #673AB7; /* Deep purple background color */
     background-image: linear-gradient(to bottom, #673AB7, goldenrod); /* Light gradient from deep purple to white */
     background-size: cover !important;
-    margin-top: -46px !important;
+    margin-top: -48px !important;
     
 
   }

@@ -183,7 +183,7 @@ export default function ModalForm() {
     <Box className='modalFormBox'
       component="form"
       sx={{
-        '& .MuiTextField-root': { m: 2, width: '60ch',},
+        '& .MuiTextField-root': { m: 2, width: '35ch', height: '16vh'},
       }}
       noValidate
       autoComplete="off"

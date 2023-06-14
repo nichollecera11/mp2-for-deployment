@@ -21,7 +21,7 @@ export default function ModalForm1() {
     <Box className='modalFormBox1'
       sx={{
         display: 'flex',
-        '& .MuiTextField-root': { width: '60ch' },
+        '& .MuiTextField-root': { width: '40ch' },
       
       }}
     >
