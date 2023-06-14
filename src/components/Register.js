@@ -39,7 +39,7 @@ function Register() {
         <ModalForm className='modalForm-section'></ModalForm>
       </Box>
       <div className='register-box'>
-      <Button onClick={handleOpen} variant="contained" endIcon={<SendIcon />}>Register</Button>
+      <Button onClick={handleOpen} variant="contained" color="success" endIcon={<SendIcon />}>Register</Button>
       <Modal
         keepMounted
         open={open}

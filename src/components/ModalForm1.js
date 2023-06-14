@@ -29,7 +29,7 @@ export default function ModalForm1() {
       <TextField label={'First Name'} id="First Name" variant="standard"/>
       <RedBar />
       <RedBar />
-      <TextField label={'Middle Name'} id="middle-Name" variant="standard" />
+      <TextField label={'Middle Name'} id="middle-Name" variant="standard"/>
       <RedBar />
       <RedBar />
       <TextField label={'Last Name'} id="last-Name" variant="standard" />
