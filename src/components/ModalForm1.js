@@ -21,28 +21,28 @@ export default function ModalForm1() {
     <Box className='modalFormBox1'
       sx={{
         display: 'flex',
-        '& .MuiTextField-root': { width: '40ch' },
+        '& .MuiTextField-root': { width: '50ch' },
       
       }}
     >
-      <RedBar />
+      
       <TextField label={'First Name'} id="First Name" variant="standard"/>
-      <RedBar />
-      <RedBar />
+      
+      
       <TextField label={'Middle Name'} id="middle-Name" variant="standard"/>
-      <RedBar />
-      <RedBar />
+      
+      
       <TextField label={'Last Name'} id="last-Name" variant="standard" />
-      <RedBar />
-      <RedBar />
+      
+      
       <TextField label={'Birthday'} id="birthday" variant="standard" />
-      <RedBar />
-      <RedBar />
+      
+      
       <TextField label={'Address'} id="Address" variant="standard" />
-      <RedBar />
-      <RedBar />
+      
+      
       <TextField label={'Drivers License'} id="drivers-license" variant="standard" />
-      <RedBar />
+      
     </Box>
   );
 }

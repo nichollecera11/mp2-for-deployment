@@ -50,8 +50,7 @@ function NavBar(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: 'flex' }}>
-      <CssBaseline />
+    <Box className='navbarRootBox' sx={{ display: 'flex' }}>
       <AppBar component="nav" className='navbar-default'>
         <Toolbar>
           <IconButton
@@ -96,11 +95,11 @@ function NavBar(props) {
           {drawer}
         </Drawer>
       </Box>
-      <Box component="main" sx={{ p: 3 }}>
+     {/*  <Box component="main" sx={{ p: 3 }}>
         <Toolbar />
         <Typography>
         </Typography>
-      </Box>
+      </Box> */}
     </Box>
   );
 }

@@ -13,16 +13,20 @@ import NavBar from './components/NavBar';
 function App() {
   return (
     <Router>
-      <NavBar />
-      <Routes>
-        <Route exact path="/" element={<Navigate to ="/Home"/>} />
-        <Route exact path="/Home" element={<Home/>} />
-        <Route exact path="/About" element={<About/>} />
-        <Route exact path="/Contact" element={<Contact />} />
-        <Route exact path="/Reservation" element={<Reservation/>} />
-        <Route exact path="/Register" element={<Register />} />
-        <Route exact path="/Login" element={<Login/>} />
-      </Routes>
+      <div className='routesMainDiv'>
+        <NavBar />
+        <div className='routesDiv'>
+          <Routes>
+            <Route exact path="/" element={<Navigate to ="/Home"/>} />
+            <Route exact path="/Home" element={<Home/>} />
+            <Route exact path="/About" element={<About/>} />
+            <Route exact path="/Contact" element={<Contact />} />
+            <Route exact path="/Reservation" element={<Reservation/>} />
+            <Route exact path="/Register" element={<Register />} />
+            <Route exact path="/Login" element={<Login/>} />
+          </Routes>
+        </div>
+      </div>
       {/* <Calendar/> */}
     </Router>
   );

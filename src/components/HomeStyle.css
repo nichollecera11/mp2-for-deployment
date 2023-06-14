@@ -5,20 +5,22 @@
 /* #root {
   overflow:hidden !important;
 } */
-
+* {
+  box-sizing: border-box !important;
+}
 .rotating-text {
 
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
   align-items: center !important;
-  font-size: 500% !important;
+  font-size: 400% !important;
   font-family: Air America !important;
-  font-weight: 800 !important;
+  font-weight: 900 !important;
   letter-spacing: 20px !important;
   color: gold!important;
   text-shadow: 1px 1px 1px #6A0DAD, -1px -1px -1px #000!important;
-  height: 120px !important;
+  height: 100px !important;
 }
 
 .rotating-text2 {
@@ -35,6 +37,34 @@
   width: 100% !important;
   margin-bottom: 30px !important;
 
+}
+
+.navbarRootBox {
+  height: fit-content;
+}
+
+
+
+._2ilYQ, ._uQNyq {
+  position: relative !important;
+}
+._2ilYQ, ._uQNyq {
+  position: relative !important;
+}
+._p6aGD {
+  position: relative !important;
+}
+
+.routesMainDiv {
+  display: flex;
+  flex-direction: column !important;
+  height: 100vh !important;
+  width: 100vw !important;
+  overflow-x: hidden !important;
+}
+
+.routesDiv {
+  margin-top: 65px;
 }
 
 .reactRotatingText {
@@ -59,48 +89,47 @@
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
-    margin-top: -48px !important;
 
 }
 
 .contact-section {
-  display: flex !important;
+    display: flex !important;
     flex-direction: column !important;
-    justify-content: center !important;
+    flex-wrap: nowrap !important;
+    justify-content: top !important;
     align-items: center !important;
     width: 100% !important;
     height: 100%vh !important;
     background-color: #673AB7; /* Deep purple background color */
     background-image: linear-gradient(to bottom, #673AB7, goldenrod); /* Light gradient from deep purple to white */
     background-size: cover !important;
-    margin-top: -48px !important;
 }
 
 .about-section {
     display: flex !important;
     flex-direction: column !important;
-    justify-content: center !important;
+    flex-wrap: nowrap !important;
+    justify-content: top !important;
     align-items: center !important;
     width: 100% !important;
     height: 100vh !important;
     background-color: #673AB7; /* Deep purple background color */
     background-image: linear-gradient(to bottom, #673AB7, goldenrod); /* Light gradient from deep purple to white */
     background-size: cover !important;
-    margin-top: -48px !important;
 
 }
 
 .register-section {
-  display: flex !important;
+    display: flex !important;
     flex-direction: column !important;
-    justify-content: center !important;
+    flex-wrap: nowrap !important;
+    justify-content: top !important;
     align-items: center !important;
     width: 100% !important;
-    height: 130vh !important;
+    height: 200vh !important;
     background-color: #673AB7; /* Deep purple background color */
     background-image: linear-gradient(to bottom, #673AB7, goldenrod); /* Light gradient from deep purple to white */
     background-size: cover !important;
-    margin-top: -48px !important;
 
 }
 .register-box {
@@ -175,7 +204,7 @@
     background-color: #673AB7; /* Deep purple background color */
     background-image: linear-gradient(to bottom, #673AB7, goldenrod); /* Light gradient from deep purple to white */
     background-size: cover !important;
-    margin-top: -48px !important;
+    margin-top: 0px !important;
     
 
   }
@@ -216,18 +245,23 @@
  /* Reservation modalFormBox */
 .modalFormBox {
   display: flex !important;
-    flex-wrap: wrap !important;
+    flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    align-content: center !important;
+    
 
 }
 .modalFormBox1 {
-  display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: center !important;
-    align-items: center !important;
-    align-content: center !important;
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px 10px;
+  margin-bottom: 50px;
+  justify-items: center;
+}
+
+.modalFormMainBox {
+  display: flex;
+  flex-direction: column;
 
 }
 

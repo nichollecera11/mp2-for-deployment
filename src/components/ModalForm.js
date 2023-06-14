@@ -180,107 +180,110 @@ const currencies6 = [
 
 export default function ModalForm() {
   return (
-    <Box className='modalFormBox'
-      component="form"
-      sx={{
-        '& .MuiTextField-root': { m: 6, width: '30ch'},
-      }}
-      noValidate
-      autoComplete="off"
-    >
-      <Box>
-      <ModalForm1/>
+    <Box className='modalFormMainBox'>
+      <Box className='modalFormBox'
+        component="form"
+        sx={{
+          '& .MuiTextField-root': { m: 2, width: '50ch'},
+        }}
+        noValidate
+        autoComplete="off"
+      >
+        <div>
+          <TextField
+            id="outlined-select-currency"
+            select
+            label="Select"
+            defaultValue="Toyota"
+            helperText="Please select your brand of car"
+            variant="filled"
+          >
+            {currencies.map((option) => (
+              <MenuItem key={option.value} value={option.value}>
+                {option.label}
+              </MenuItem>
+            ))}
+          </TextField>
+          <TextField
+            id="outlined-select-currency-native"
+            select
+            label="Number of Wheels"
+            defaultValue="2"
+            helperText="Please select number of wheels"
+            variant="filled"
+          >
+            {currencies2.map((option) => (
+              <MenuItem key={option.value} value={option.value}>
+              {option.label}
+            </MenuItem>
+          ))}
+          </TextField>
+        </div>
+        <div>
+          <TextField
+            id="filled-select-currency"
+            select
+            label="Select"
+            defaultValue="Sedan"
+            helperText="Please select type of car"
+            variant="filled"
+          >
+            {currencies3.map((option) => (
+              <MenuItem key={option.value} value={option.value}>
+                {option.label}
+              </MenuItem>
+            ))}
+          </TextField>
+          <TextField
+            id="standard-select-currency-native"
+            select
+            label="Payment Options"
+            defaultValue="Gcash"
+            helperText="Mode of payment"
+            variant="standard"
+          >
+            {currencies6.map((option) => (
+              <MenuItem key={option.value} value={option.value}>
+              {option.label}
+            </MenuItem>
+          ))}
+          </TextField>
+          {/* <TextField
+            id="filled-select-currency-native"
+            select
+            label="Time"
+            defaultValue="10am - 10pm"
+            helperText="Entry time and Time out"
+            variant="filled"
+          >
+            {currencies4.map((option) => (
+              <MenuItem key={option.value} value={option.value}>
+              {option.label}
+            </MenuItem>
+          ))}
+          </TextField> */}
+        </div>
+        <div>
+          {/* <TextField
+            id="standard-select-currency"
+            select
+            label="Number of Days"
+            defaultValue="1"
+            helperText="Select number of days"
+            variant="filled"
+          >
+            {currencies5.map((option) => (
+              <MenuItem key={option.value} value={option.value}>
+                {option.label}
+              </MenuItem>
+            ))}
+          </TextField> */}
+          
+        </div>
       </Box>
-      <div>
-        <TextField
-          id="outlined-select-currency"
-          select
-          label="Select"
-          defaultValue="Toyota"
-          helperText="Please select your brand of car"
-          variant="filled"
-        >
-          {currencies.map((option) => (
-            <MenuItem key={option.value} value={option.value}>
-              {option.label}
-            </MenuItem>
-          ))}
-        </TextField>
-        <TextField
-          id="outlined-select-currency-native"
-          select
-          label="Number of Wheels"
-          defaultValue="2"
-          helperText="Please select number of wheels"
-          variant="filled"
-        >
-          {currencies2.map((option) => (
-            <MenuItem key={option.value} value={option.value}>
-            {option.label}
-          </MenuItem>
-        ))}
-        </TextField>
-      </div>
-      <div>
-        <TextField
-          id="filled-select-currency"
-          select
-          label="Select"
-          defaultValue="Sedan"
-          helperText="Please select type of car"
-          variant="filled"
-        >
-          {currencies3.map((option) => (
-            <MenuItem key={option.value} value={option.value}>
-              {option.label}
-            </MenuItem>
-          ))}
-        </TextField>
-        {/* <TextField
-          id="filled-select-currency-native"
-          select
-          label="Time"
-          defaultValue="10am - 10pm"
-          helperText="Entry time and Time out"
-          variant="filled"
-        >
-          {currencies4.map((option) => (
-            <MenuItem key={option.value} value={option.value}>
-            {option.label}
-          </MenuItem>
-        ))}
-        </TextField> */}
-      </div>
-      <div>
-        {/* <TextField
-          id="standard-select-currency"
-          select
-          label="Number of Days"
-          defaultValue="1"
-          helperText="Select number of days"
-          variant="filled"
-        >
-          {currencies5.map((option) => (
-            <MenuItem key={option.value} value={option.value}>
-              {option.label}
-            </MenuItem>
-          ))}
-        </TextField> */}
-        <TextField
-          id="standard-select-currency-native"
-          select
-          label="Payment Options"
-          defaultValue="Gcash"
-          helperText="Mode of payment"
-          variant="standard"
-        >
-          {currencies6.map((option) => (
-            <MenuItem key={option.value} value={option.value}>
-            {option.label}
-          </MenuItem>
-        ))}
-        </TextField>
-      </div>
+      <Box>
+        <ModalForm1/>
+      </Box>
     </Box>
   );
 }

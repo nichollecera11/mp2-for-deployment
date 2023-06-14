@@ -35,7 +35,7 @@ function Register() {
       <Divider></Divider>
       
 
-        <Box className='register-section'>
+        <Box>
         <ModalForm className='modalForm-section'></ModalForm>
       </Box>
       <div className='register-box'>
