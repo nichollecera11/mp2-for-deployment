@@ -103,51 +103,51 @@ const currencies3 = [
     
 ];
   
-const currencies4 = [
-    {
-      value: '10am - 10pm',
-      label: '10am - 10pm',
-    },
-    {
-      value: '10am - before closing',
-      label: '10am - before closing',
-    },
-    {
-      value: 'afternoon-evening',
-      label: 'afternoon-evening',
-    },
-    {
-      value: 'morning - afternoon',
-      label: 'morning - afternoon',
-    },
-  ];
+// const currencies4 = [
+//     {
+//       value: '10am - 10pm',
+//       label: '10am - 10pm',
+//     },
+//     {
+//       value: '10am - before closing',
+//       label: '10am - before closing',
+//     },
+//     {
+//       value: 'afternoon-evening',
+//       label: 'afternoon-evening',
+//     },
+//     {
+//       value: 'morning - afternoon',
+//       label: 'morning - afternoon',
+//     },
+//   ];
 
-  const currencies5 = [
-    {
-      value: '1 day',
-      label: '1 day',
-    },
-    {
-      value: '2 days',
-      label: '2 days',
-    },
-    {
-      value: '3 days',
-      label: '3 days',
-    },
-    {
-      value: '4 days',
-      label: '4 days',
-    },
-    {
-      value: '5 days',
-      label: '5 days',
-    },
-    {
-      value: '1 week',
-      label: '1 week',
-    },
-];
+  // const currencies5 = [
+//     {
+//       value: '1 day',
+//       label: '1 day',
+//     },
+//     {
+//       value: '2 days',
+//       label: '2 days',
+//     },
+//     {
+//       value: '3 days',
+//       label: '3 days',
+//     },
+//     {
+//       value: '4 days',
+//       label: '4 days',
+//     },
+//     {
+//       value: '5 days',
+//       label: '5 days',
+//     },
+//     {
+//       value: '1 week',
+//       label: '1 week',
+//     },
+// ];
 
 const currencies6 = [
     {
@@ -236,7 +236,7 @@ export default function ModalForm() {
             </MenuItem>
           ))}
         </TextField>
-        <TextField
+        {/* <TextField
           id="filled-select-currency-native"
           select
           label="Time"
@@ -249,10 +249,10 @@ export default function ModalForm() {
             {option.label}
           </MenuItem>
         ))}
-        </TextField>
+        </TextField> */}
       </div>
       <div>
-        <TextField
+        {/* <TextField
           id="standard-select-currency"
           select
           label="Number of Days"
@@ -265,7 +265,7 @@ export default function ModalForm() {
               {option.label}
             </MenuItem>
           ))}
-        </TextField>
+        </TextField> */}
         <TextField
           id="standard-select-currency-native"
           select

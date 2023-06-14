@@ -99,6 +99,10 @@
     margin-top: -46px !important;
 
 }
+.register-box {
+  margin-bottom: 50px !important;
+  box-shadow: 0px 5px 5px #800080;
+}
 
 .divider-section {
     display: flex !important;
@@ -174,9 +178,11 @@
 
   .calendar-css {
     display: flex !important;
-    /* flex-direction: column !important; */
+    flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
+    margin-bottom: 50px !important;
+    
   }
 
   .mainBox {
@@ -201,8 +207,9 @@
   align-items: center !important;
   justify-content: center !important;
   flex-direction: row !important;
+  box-shadow: 2px 5px 5px #FFD700 !important;
 }
-
+ /* Reservation modalFormBox */
 .modalFormBox {
   display: flex !important;
     flex-wrap: wrap !important;
@@ -219,6 +226,8 @@
     align-content: center !important;
 
 }
+
+
 /* MODAL CSS
 .modal-container {
   position: fixed;
