@@ -203,7 +203,7 @@
   flex-direction: row !important;
 }
 
-/* .modalFormBox {
+.modalFormBox {
   display: flex !important;
     flex-wrap: wrap !important;
     justify-content: center !important;
@@ -218,7 +218,7 @@
     align-items: center !important;
     align-content: center !important;
 
-} */
+}
 /* MODAL CSS
 .modal-container {
   position: fixed;
