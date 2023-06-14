@@ -5,8 +5,9 @@ import Calendar from './Calendar.js';
 // import SpacingGrid from './SpacingGrid.js';
 import ReactRotatingText from 'react-rotating-text';
 import { RotatingText } from 'rotating-text';
-import Modal from './Modal.js';
-// import shadows from '@mui/material/styles/shadows.js';
+// import Modal from './Modal.js';
+import shadows from '@mui/material/styles/shadows.js';
+import TableApp from './tablecomponents/TableApp.js';
 
 
 
@@ -32,7 +33,8 @@ function Reservation() {
           <Container>
             <Calendar />
             <Divider>
-            </Divider>
+          </Divider>
+          <TableApp/>
               {/* <SpacingGrid/> */}
             </Container>
     </Box>

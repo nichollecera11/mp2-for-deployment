@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-
-import "./Modal.css";
+import './HomeStyle.css';
 
 
 export const Modal = ({ closeModal, onSubmit, defaultValue }) => {
@@ -89,3 +88,5 @@ export const Modal = ({ closeModal, onSubmit, defaultValue }) => {
     </div>
   );
 };
+
+export default Modal();
