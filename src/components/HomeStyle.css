@@ -28,7 +28,7 @@
   flex-direction: column !important;
   justify-content: center !important;
   align-items: center !important;
-  font-size: 500% !important;
+  font-size: 450% !important;
   font-family: Air America !important;
   font-weight: 900 !important;
   letter-spacing: 10px !important;
@@ -36,6 +36,7 @@
   height: 120px !important;
   width: 100% !important;
   margin-bottom: 30px !important;
+  margin-top: -10px !important;
 
 }
 

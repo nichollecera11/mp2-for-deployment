@@ -1,0 +1,93 @@
+.main1{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #673AB7; /* Deep purple background color */
+    background-image: linear-gradient(to bottom, #673AB7, goldenrod);
+  }
+  
+  .sub-main1{
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 35%;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+    padding-top: 30px;
+    border-radius: 30px;
+    background: transparent white;
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 5);
+  
+  
+  }
+  
+  .imgs1{
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .container-image1{
+    background-color: rgb(223, 221, 221);
+    border-radius: 115px;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .profile1{
+    height: 100px;
+    width: 100px;
+    border-radius: 150px;
+  }
+  
+  .input1{
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+    border: none;
+    outline: none;
+    background-color: #fff;
+  }
+  
+  .email1{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    padding: 14px 0 0 25px;
+  }
+  
+  .name1{
+    padding-top: 0;
+    padding-left: 70px;
+    font-size: 20px;
+  }
+  
+  .second-input1{
+    padding-top: 15px;
+  }
+  
+  .button1 {
+    width: 350px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: rgb(52, 52, 194);
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px !important;
+  }
+  
+  .button1 {
+    padding-top: 30px;
+  }
+  
+  .link1{
+    font-size: 20px;
+    font-weight: 400;
+  }
