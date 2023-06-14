@@ -1,0 +1,221 @@
+.MuiBox-root {
+  font-family: Roboto !important;
+}
+
+.rotating-text {
+
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 500% !important;
+  font-family: Air America !important;
+  font-weight: 800 !important;
+  letter-spacing: 20px !important;
+  color: gold!important;
+  text-shadow: 1px 1px 1px #6A0DAD, -1px -1px -1px #000!important;
+  height: 120px !important;
+}
+
+.rotating-text2 {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 500% !important;
+  font-family: Air America !important;
+  font-weight: 900 !important;
+  letter-spacing: 10px !important;
+  color: Gold !important;
+  height: 120px !important;
+  width: 100% !important;
+  margin-bottom: 30px !important;
+
+}
+
+.reactRotatingText {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  letter-spacing: 5px !important;
+  font-size: 40px !important;
+  font-family: Air America !important;
+
+}
+
+.home-section {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    height:89.5vh !important;
+    background-image: url('https://media.giphy.com/media/l0HlKQPTHOGNUPTZm/giphy.gif') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-top: -46px !important;
+
+}
+
+.contact-section {
+  display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 100%vh !important;
+    background-color: #673AB7; /* Deep purple background color */
+    background-image: linear-gradient(to bottom, #673AB7, goldenrod); /* Light gradient from deep purple to white */
+    background-size: cover !important;
+    margin-top: -46px !important;
+}
+
+.about-section {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 89.5vh !important;
+    background-color: #673AB7; /* Deep purple background color */
+    background-image: linear-gradient(to bottom, #673AB7, goldenrod); /* Light gradient from deep purple to white */
+    background-size: cover !important;
+    margin-top: -46px !important;
+
+}
+
+.register-section {
+  display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 130vh !important;
+    background-color: #673AB7; /* Deep purple background color */
+    background-image: linear-gradient(to bottom, #673AB7, goldenrod); /* Light gradient from deep purple to white */
+    background-size: cover !important;
+    margin-top: -46px !important;
+
+}
+
+.divider-section {
+    display: flex !important;
+    background-color: goldenrod !important;
+    width: 100px !important;
+    height: 2px !important;
+    margin-bottom: 50px !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+
+}
+
+.contact-divider {
+  display: flex !important;
+    background-color: goldenrod !important;
+    width: 100% !important;
+    height: 2px !important;
+    margin-bottom: 50px !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+.reservation-divider {
+  display: flex !important;
+    background-color: goldenrod !important;
+    width: 100% !important;
+    height: 2px !important;
+    margin-bottom: 30px !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.about-typography {
+    font-family: Air America !important;
+    font-size: 50px !important;
+    font-weight: 50px !important;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #000 !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.react-rotating-text-cursor {
+    animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+  }
+
+  @keyframes blinking-cursor {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .reservationStyle {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 100%vh !important;
+    background-color: #673AB7; /* Deep purple background color */
+    background-image: linear-gradient(to bottom, #673AB7, goldenrod); /* Light gradient from deep purple to white */
+    background-size: cover !important;
+    margin-top: -46px !important;
+    
+
+  }
+
+  .calendar-css {
+    display: flex !important;
+    /* flex-direction: column !important; */
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .mainBox {
+    display: flex;
+    flex-direction: row !important;
+    margin-bottom: 100px !important;
+    margin-top: 100px !important;
+
+  }
+
+  .Box1, .Box2{
+    width: 50%;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+  /* Map CSS */
+.map-container {
+  display: flex !important;
+  width: 100% !important;
+  height: 100vh !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: row !important;
+}
+
+.modalFormBox {
+  display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+
+}
+.modalFormBox1 {
+  display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+
+}
