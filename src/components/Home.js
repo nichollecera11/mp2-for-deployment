@@ -10,7 +10,7 @@ function Home() {
       <RotatingText className="rotating-text"
         text="Reserva"
       stagger={0.1}
-        timing={0.5}>
+        timing={0.6}>
       </RotatingText>
       <Typography variant='h3' align='center' fontFamily={'Air America'} letterSpacing={'10px'}>
         Your parking solutions
