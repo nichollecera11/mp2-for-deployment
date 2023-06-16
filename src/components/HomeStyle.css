@@ -115,12 +115,17 @@
     justify-content: top !important;
     align-items: center !important;
     width: 100% !important;
-    height: 100vh !important;
+    height: 300vh !important;
     background-color: #673AB7; /* Deep purple background color */
     background-image: linear-gradient(to bottom, #673AB7, goldenrod); /* Light gradient from deep purple to white */
     background-size: cover !important;
     margin-top: -7.5px !important;
 
+}
+
+.myGallery-container {
+    background-color: linear-gradient(to bottom, #673AB7, goldenrod)
+  
 }
 
 .register-section {
