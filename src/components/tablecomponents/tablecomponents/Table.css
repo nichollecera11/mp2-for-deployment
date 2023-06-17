@@ -44,7 +44,8 @@
 .label {
   border-radius: 3px;
   padding: 0.3rem;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
+  background-color: #42a942;
 }
 
 .label-maintenance {
