@@ -1,14 +1,179 @@
-.main1{
+@media only screen and (max-width: 1000px) {
+  /* For mobile phones: */
+  .container-image1 {
+    background-color: rgb(223, 221, 221);
+    border-radius: 115px;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    width: 100px;
+  }
+
+  .profile1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 150px;
+  }
+
+  .input1 {
+    width: 40px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+    border: none;
+    outline: none;
+    background-color: #fff;
+  }
+
+  .email1 {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    padding: 5px 0 0 10px;
+  }
+
+  .name1 {
+    padding-top: 0;
+    padding-left: 50px;
+    font-size: 20px;
+  }
+
+  .second-input1 {
+    padding-top: 20px;
+  }
+
+  .button2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .button1 {
+    padding-top: 30px;
+  }
+
+  .link1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .main1 {
     text-align: center;
     justify-content: center;
     display: flex;
     padding-top: 90px;
     padding-bottom: 90px;
-    background-color: #673AB7; /* Deep purple background color */
-    background-image: linear-gradient(to bottom, #673AB7, goldenrod);
+    background-color: #673ab7; /* Deep purple background color */
+    background-image: linear-gradient(to bottom, #673ab7, goldenrod);
   }
-  
-  .sub-main1{
+
+  .sub-main1 {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 80%;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207, 0.2);
+    padding-top: 30px;
+    border-radius: 30px;
+    background: transparent white;
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 5);
+  }
+
+  .imgs1 {
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+  /* desktop */
+
+  .container-image1 {
+    background-color: rgb(223, 221, 221);
+    border-radius: 115px;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    width: 100px;
+  }
+
+  .profile1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 150px;
+  }
+
+  .input1 {
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+    border: none;
+    outline: none;
+    background-color: #fff;
+  }
+
+  .email1 {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    padding: 5px 0 0 10px;
+  }
+
+  .name1 {
+    padding-top: 0;
+    padding-left: 50px;
+    font-size: 20px;
+  }
+
+  .second-input1 {
+    padding-top: 20px;
+  }
+
+  .button2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .button1 {
+    padding-top: 30px;
+  }
+
+  .link1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .main1 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #673ab7; /* Deep purple background color */
+    background-image: linear-gradient(to bottom, #673ab7, goldenrod);
+  }
+
+  .sub-main1 {
     display: flex;
     justify-content: center;
     height: 550px;
@@ -19,78 +184,11 @@
     background: transparent white;
     backdrop-filter: blur(5px);
     border: 2px solid rgba(255, 255, 255, 5);
-  
-  
   }
-  
-  .imgs1{
+
+  .imgs1 {
     padding-top: 20px;
     justify-content: center;
     display: flex;
   }
-  
-  .container-image1{
-    background-color: rgb(223, 221, 221);
-    border-radius: 115px;
-    align-items: center;
-    display: flex;
-    height: 100px;
-    width: 100px;
-  }
-  
-  .profile1{
-    height: 100px;
-    width: 100px;
-    border-radius: 150px;
-  }
-  
-  .input1{
-    width: 300px;
-    height: 50px;
-    border-radius: 60px;
-    box-shadow: inset 0px 0px 25px 0px #888;
-    border: none;
-    outline: none;
-    background-color: #fff;
-  }
-  
-  .email1{
-    height: 30px;
-    width: 30px;
-    position: absolute;
-    padding: 5px 0 0 10px;
-  }
-  
-  .name1{
-    padding-top: 0;
-    padding-left: 50px;
-    font-size: 20px;
-  }
-  
-  .second-input1{
-    padding-top: 20px;
-  }
-  
-  .button2 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 400;
-  }
-  
-  .button1 {
-    padding-top: 30px;
-  }
-  
-  .link1{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 5%;
-    font-size: 20px;
-    font-weight: 400;
-  }
+}
